@@ -1,12 +1,22 @@
 "use client"
 import { useTodos, Todo } from '@/Store/Todostore'
+import { useSearchParams } from 'next/navigation'
 import React from 'react'
 
 const Todos = () => {
     const { todos, toggleTodo, handleDelte } = useTodos()
 
+    const searchparams = useSearchParams()
+    const todoFilter = searchparams.get("todos")
     console.log(todos)
     let Filtertodos: Todo[] = todos
+
+    if (todoFilter === "active") {
+        Filtertodos = Filtertodos.filter((el) => !el.completed)
+    }
+    else if (todoFilter === "complete") {
+        Filtertodos = Filtertodos.filter((el) => el.completed)
+    }
     return (
         <div>
             <ul>
