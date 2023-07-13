@@ -15,15 +15,16 @@ function Addtodo() {
 
     }
     return (
-        <div>
+        <div className='Addtodo'>
             <form onSubmit={handleFormsubmit}>
-                <p>Title</p>
-
-                <input type="text" placeholder='enter title' value={title} onChange={(e) => setTitle(e.target.value)}></input>
-                <p>Description</p>
-
-                <input type="text" placeholder='enter Description' value={description} onChange={(e) => setDescription(e.target.value)}></input>
-                <br></br>
+                <div>
+                    <p>Title</p>
+                    <input type="text" placeholder='enter title' value={title} onChange={(e) => setTitle(e.target.value)}></input>
+                </div>
+                <div>
+                    <p>Description</p>
+                    <textarea placeholder='enter Description' value={description} onChange={(e) => setDescription(e.target.value)}></textarea>
+                </div>
                 <button type="submit">submit</button>
             </form>
         </div>
