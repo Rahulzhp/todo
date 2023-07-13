@@ -1,7 +1,7 @@
 ### Task Management Application ####
 
 
-![Stamurai Project]()
+![Stamurai Project](https://github.com/Rahulzhp/todo/assets/107567053/2aa924b0-7f9e-4be8-a996-5cce48300d11)
 
 # Clone of Task Management Application
 
@@ -29,13 +29,10 @@ To make this clone we have used Next.js, Tailwind CSS and ReactJS for front-end 
 
 ## Project Listing Page
 -Desktop View
-<img width="710" alt="image" src="" />
+<img width="710" alt="image" src="https://github.com/Rahulzhp/todo/assets/107567053/e009a7de-c378-467f-802e-8a8dd5ee10e6" />
 
 ## Create Project page
 
 -Desktop View
-<img width="710" alt="image" src="" />
-
-
-
+<img width="710" alt="image" src="https://github.com/Rahulzhp/todo/assets/107567053/2aa924b0-7f9e-4be8-a996-5cce48300d11" />
 
