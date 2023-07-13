@@ -5,7 +5,7 @@ import { AiFillDelete } from 'react-icons/ai';
 import React from 'react'
 
 const Todos = () => {
-    const { todos, toggleTodo, handleDelte } = useTodos()
+    const { todos, toggleTodo, handleDelete } = useTodos()
 
     const searchparams = useSearchParams()
     const todoFilter = searchparams.get("todos")
@@ -33,7 +33,7 @@ const Todos = () => {
                             </div>
                             <div>
                                 {
-                                    el.completed && <div onClick={() => handleDelte(el.id)}><AiFillDelete /></div>
+                                    el.completed && <div onClick={() => handleDelete(el.id)}><AiFillDelete /></div>
                                 }
                             </div>
                         </div>
