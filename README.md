@@ -5,7 +5,7 @@
 
 # Clone of Task Management Application
 
-Deployed Link - -
+Deployed Link - (https://effortless-cendol-a46ed8.netlify.app/)
 
 ## What is Task Management Application?
 
